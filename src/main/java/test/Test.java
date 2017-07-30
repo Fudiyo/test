@@ -11,7 +11,7 @@ public class Test {
 		WebDriver driver = new FirefoxDriver();
 		
 		driver.get("https://www.google.co.in");
-		
+		driver.quit();
 	}
 
 }
